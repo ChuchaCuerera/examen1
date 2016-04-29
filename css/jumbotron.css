@@ -1,0 +1,162 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+body {
+	margin: 0;
+}
+
+.logo{
+	text-align: center;
+}
+
+.logo img{
+	width: 100%;
+
+
+}
+.layer{
+	    background-color: rgba(0,0,0,0.7);
+
+}
+
+.sombraT{
+	text-shadow: 2px 2px 2px #242424;
+	-webkit-text-shadow: 2px 2px 2px #242424;
+
+	-o-text-shadow: 2px 2px 2px #242424;
+
+	-moz-text-shadow: 2px 2px 2px #242424;
+
+
+
+}
+
+.t1 {
+	color: white !important;
+	text-align: center !important;
+}
+
+.g{
+	background-color: #7ECBAB;
+	margin-bottom: 10px;
+
+
+}
+
+.g h1{
+	text-align: center;
+	color: white;
+
+}
+
+footer{
+
+}
+
+.pad{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.pad h1{
+	font-weight: 400;
+	color: white;
+}
+
+.pad h3{
+	font-weight: 300px;
+	padding: 20px;
+	text-align: center;
+	color: white;
+}
+
+.pad1{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.t2{
+	
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	height: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+	font-size: 1.2em;
+	display: inline;
+/*
+	border-top: 1px #B7B7B7 dashed;
+	border-bottom: 1px #B7B7B7 dashed;*/
+
+}
+hr {
+
+	border: 1px #B7B7B7 dashed;
+	
+}
+.n{
+	font-weight: bold;}
+	
+.p3{
+	padding: 10px;
+}
+
+.p4{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.logos img{
+	width: 100%;
+
+
+}
+.caja{
+	border: 1px solid grey;
+	padding: 5px;
+	margin: 10px;
+}
+
+.man{
+	border: 1px solid grey;
+	padding: 5px;
+	margin: 10px;
+	text-align: center;
+}
+
+.man img{
+	width: 80%;
+
+}
+
+footer{
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.f{
+	text-align: center;
+
+
+}
+
+.f img{
+	width: 60%;
+}
+
+
+ .google-maps {
+        position: relative;
+        padding-bottom: 30%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
